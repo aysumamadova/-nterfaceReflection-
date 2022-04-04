@@ -32,11 +32,8 @@ namespace İnterface_Reflection_task.Models
                 };
             }
         }
-        public double AverageSpeed()
-        {
-            return ( DrivePath/DriveTime) ;
-        }
-
+       abstract public double AverageSpeed();
+       
 
 
     }

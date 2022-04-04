@@ -144,6 +144,11 @@ namespace İnterface_Reflection_task.Models
         {
             return TankSize - CurrentOil;
         }
+
+        public override double AverageSpeed()
+        {
+            return DrivePath / DriveTime;
+        }
     }
 }
 

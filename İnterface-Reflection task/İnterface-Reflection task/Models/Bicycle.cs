@@ -4,13 +4,13 @@ using System.Text;
 
 namespace İnterface_Reflection_task.Models
 {
-    class Bicycle:Vehicle,IWheel
+    class Bicycle : Vehicle, IWheel
     {
         private double _wheelThickness;
         private string _pedalKind;
         private double _drivetime;
         private double _drivepath;
-        public string PedalKind 
+        public string PedalKind
         {
             get { return _pedalKind; }
             set
@@ -63,14 +63,19 @@ namespace İnterface_Reflection_task.Models
             }
         }
 
-    public Bicycle(double wheelThickness,string pedalKind,double drivepath,double drivetime)
+        public Bicycle(double wheelThickness, string pedalKind, double drivepath, double drivetime)
         {
             WheelThickness = wheelThickness;
             PedalKind = pedalKind;
             DrivePath = drivepath;
             DriveTime = drivetime;
         }
-    }
 
-       
+        public override double AverageSpeed()
+        {
+            return DrivePath / DriveTime;
+        }
+
+
+    }
 }

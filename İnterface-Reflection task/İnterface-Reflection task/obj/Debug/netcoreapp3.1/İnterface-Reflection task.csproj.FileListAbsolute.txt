@@ -12,3 +12,17 @@ C:\Users\AysuMemmedova\source\repos\İnterface-Reflection task\İnterface-Reflec
 C:\Users\AysuMemmedova\source\repos\İnterface-Reflection task\İnterface-Reflection task\obj\Debug\netcoreapp3.1\İnterface-Reflection task.dll
 C:\Users\AysuMemmedova\source\repos\İnterface-Reflection task\İnterface-Reflection task\obj\Debug\netcoreapp3.1\İnterface-Reflection task.pdb
 C:\Users\AysuMemmedova\source\repos\İnterface-Reflection task\İnterface-Reflection task\obj\Debug\netcoreapp3.1\İnterface-Reflection task.genruntimeconfig.cache
+C:\Users\tu7tw2d21\Desktop\-nterface-Reflection-\İnterface-Reflection task\İnterface-Reflection task\bin\Debug\netcoreapp3.1\İnterface-Reflection task.exe
+C:\Users\tu7tw2d21\Desktop\-nterface-Reflection-\İnterface-Reflection task\İnterface-Reflection task\bin\Debug\netcoreapp3.1\İnterface-Reflection task.deps.json
+C:\Users\tu7tw2d21\Desktop\-nterface-Reflection-\İnterface-Reflection task\İnterface-Reflection task\bin\Debug\netcoreapp3.1\İnterface-Reflection task.runtimeconfig.json
+C:\Users\tu7tw2d21\Desktop\-nterface-Reflection-\İnterface-Reflection task\İnterface-Reflection task\bin\Debug\netcoreapp3.1\İnterface-Reflection task.runtimeconfig.dev.json
+C:\Users\tu7tw2d21\Desktop\-nterface-Reflection-\İnterface-Reflection task\İnterface-Reflection task\bin\Debug\netcoreapp3.1\İnterface-Reflection task.dll
+C:\Users\tu7tw2d21\Desktop\-nterface-Reflection-\İnterface-Reflection task\İnterface-Reflection task\bin\Debug\netcoreapp3.1\İnterface-Reflection task.pdb
+C:\Users\tu7tw2d21\Desktop\-nterface-Reflection-\İnterface-Reflection task\İnterface-Reflection task\obj\Debug\netcoreapp3.1\İnterface-Reflection task.csproj.AssemblyReference.cache
+C:\Users\tu7tw2d21\Desktop\-nterface-Reflection-\İnterface-Reflection task\İnterface-Reflection task\obj\Debug\netcoreapp3.1\İnterface-Reflection task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tu7tw2d21\Desktop\-nterface-Reflection-\İnterface-Reflection task\İnterface-Reflection task\obj\Debug\netcoreapp3.1\İnterface-Reflection task.AssemblyInfoInputs.cache
+C:\Users\tu7tw2d21\Desktop\-nterface-Reflection-\İnterface-Reflection task\İnterface-Reflection task\obj\Debug\netcoreapp3.1\İnterface-Reflection task.AssemblyInfo.cs
+C:\Users\tu7tw2d21\Desktop\-nterface-Reflection-\İnterface-Reflection task\İnterface-Reflection task\obj\Debug\netcoreapp3.1\İnterface-Reflection task.csproj.CoreCompileInputs.cache
+C:\Users\tu7tw2d21\Desktop\-nterface-Reflection-\İnterface-Reflection task\İnterface-Reflection task\obj\Debug\netcoreapp3.1\İnterface-Reflection task.dll
+C:\Users\tu7tw2d21\Desktop\-nterface-Reflection-\İnterface-Reflection task\İnterface-Reflection task\obj\Debug\netcoreapp3.1\İnterface-Reflection task.pdb
+C:\Users\tu7tw2d21\Desktop\-nterface-Reflection-\İnterface-Reflection task\İnterface-Reflection task\obj\Debug\netcoreapp3.1\İnterface-Reflection task.genruntimeconfig.cache

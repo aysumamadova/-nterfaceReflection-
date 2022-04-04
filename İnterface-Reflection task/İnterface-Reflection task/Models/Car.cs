@@ -50,7 +50,7 @@ namespace İnterface_Reflection_task.Models
             get { return _doorCount; }
             set
             {
-                if (value >= 1||value<=4)
+                if (value >= 1 || value <= 4)
                 {
                     _doorCount = value;
                 };
@@ -62,7 +62,7 @@ namespace İnterface_Reflection_task.Models
             get { return _winCode; }
             set
             {
-                if (!string.IsNullOrEmpty(value)||!string.IsNullOrWhiteSpace(value))
+                if (!string.IsNullOrEmpty(value) || !string.IsNullOrWhiteSpace(value))
                 {
                     _winCode = value;
                 };
@@ -75,7 +75,7 @@ namespace İnterface_Reflection_task.Models
             get { return _horsePower; }
             set
             {
-                if (value >= 5||value<=1000)
+                if (value >= 5 || value <= 1000)
                 {
                     _horsePower = value;
                 };
@@ -87,7 +87,7 @@ namespace İnterface_Reflection_task.Models
             get { return _tankSize; }
             set
             {
-                if (value >=10 || value <= 150)
+                if (value >= 10 || value <= 150)
                 {
                     _tankSize = value;
                 };
@@ -135,7 +135,7 @@ namespace İnterface_Reflection_task.Models
             get { return _wheelThickness; }
             set
             {
-                if (value > 0||value<=50)
+                if (value > 0 || value <= 50)
                 {
                     _wheelThickness = value;
                 };
@@ -160,8 +160,11 @@ namespace İnterface_Reflection_task.Models
         {
             return TankSize - CurrentOil;
         }
+        public override double AverageSpeed()
+        {
+            return DrivePath / DriveTime;
+        }
 
     }
-    
 }
 

@@ -43,18 +43,24 @@ namespace İnterface_Reflection_task
                         Car car = new Car(doorCount,winCode,transmissionKind, wheelThickness,horsePower,tankSize,currentOil,fuelType, drivetime, drivepath);
                         Console.WriteLine("-------------------------------------------------------------------------------------------");
                         car.ShowInfo();
+                        Console.WriteLine($"Speed:{car.AverageSpeed()}");
+                        Console.WriteLine($"Left fuel amount:{car.LeftFuelAmount()}");
+                       
                         break;
                     case 2:
                         InputBicycle(ref pedalkind, ref wheelThickness, ref drivetime, ref drivepath);
                         Bicycle bicycle = new Bicycle( wheelThickness,pedalkind, drivetime, drivepath);
                         Console.WriteLine("-------------------------------------------------------------------------------------------");
                         bicycle.ShowInfo();
+                        Console.WriteLine($"Speed:{bicycle.AverageSpeed()}");
                         break;
                     case 3:
                         InputPlane(ref wingLength, ref horsePower, ref tankSize, ref currentOil, ref fuelType, ref transmissionKind, ref wheelThickness, ref drivetime, ref drivepath);
                         Plane plane = new Plane(wingLength, transmissionKind, wheelThickness, horsePower, tankSize, currentOil, fuelType, drivetime, drivepath);
                         Console.WriteLine("-------------------------------------------------------------------------------------------");
                         plane.ShowInfo();
+                        Console.WriteLine($"Speed:{plane.AverageSpeed()}");
+                        Console.WriteLine($"Left fuel amount:{plane.LeftFuelAmount()}");
                         break;
                     default:
                     case 4:
@@ -268,8 +274,8 @@ namespace İnterface_Reflection_task
             {
                 Console.WriteLine("Qaliq nefti qeyd edin");
                 currentOil = Convert.ToDouble(Console.ReadLine());
-                if (currentOil < 0 || currentOil > 150)
-                    throw new NotAvailableException("0dan kicik 150den boyuk ola bilmez");
+                if (currentOil < 0 || currentOil < TankSize)
+                    throw new NotAvailableException("Yanlis daxil edilib");
             }
             catch (FormatException)
             {
@@ -282,7 +288,7 @@ namespace İnterface_Reflection_task
                 goto Start;
             }
         }
-
+        static double TankSize = 0;
         static void ChekTankSize(ref double tankSize)
         {
         Start:
@@ -290,6 +296,7 @@ namespace İnterface_Reflection_task
             {
                 Console.WriteLine("Tank olcusunu qeyd edin");
                 tankSize = Convert.ToDouble(Console.ReadLine());
+                TankSize = tankSize;
                 if (tankSize < 0 || tankSize > 150)
                     throw new NotAvailableException("0dan kicik 150den boyuk ola bilmez");
             }
@@ -439,8 +446,8 @@ namespace İnterface_Reflection_task
             {
                 Console.WriteLine("Qaliq nefti qeyd edin");
                 currentOil = Convert.ToDouble(Console.ReadLine());
-                if (currentOil < 0 || currentOil > 150)
-                    throw new NotAvailableException("0dan kicik 150den boyuk ola bilmez");
+                if (currentOil < 0 || currentOil < Size)
+                    throw new NotAvailableException("Yanlis daxil edilib");
             }
             catch (FormatException)
             {
@@ -454,6 +461,7 @@ namespace İnterface_Reflection_task
             }
         }
 
+        static double Size = 0;
         private static void InpuTankSize(ref double tankSize)
         {
         Start:
@@ -461,6 +469,7 @@ namespace İnterface_Reflection_task
             {
                 Console.WriteLine("Tank olcusunu qeyd edin");
                 tankSize = Convert.ToDouble(Console.ReadLine());
+                Size = tankSize;
                 if (tankSize < 0 || tankSize > 150)
                     throw new NotAvailableException("0dan kicik 150den boyuk ola bilmez");
             }
